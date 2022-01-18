@@ -1,0 +1,66 @@
+.chat_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 40px;
+    background-color: #212121;
+    cursor: pointer;
+    position: relative;
+}
+.openStyle{
+    width: 65%;
+}
+.closeStyle{
+    width: 100%;
+}
+
+.chat_header_info{
+    display: flex;
+    align-items: center;
+}
+.chat_header img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.chat_header_info_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.chat_header_info p{
+    color: #aaa;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.chat_header_info_info h5{
+    font-size: 20px;
+    font-family:  "Roboto",-apple-system,apple color emoji,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: bolder;
+    color: #fff;
+
+}
+.chat_header_info_info p{
+    font-size: 16px;
+    font-family:  "Roboto",-apple-system,apple color emoji,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: normal;
+    color: #aaa;
+    
+}
+.chat_header_icon{
+    display: flex;
+
+}
+.chat_header_icon p{
+    color: #aaa;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50px;
+}
+.chat_header_icon p:hover{
+    background-color: #3f3d3d46;
+}

@@ -1,0 +1,78 @@
+.UserProfile{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #212121;
+    width: 25%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.userOpen{
+    display: block;
+}
+.userClose{
+    display: none;
+}
+.UserProfile_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    height: 12vh;
+}
+.UserProfile_header p{
+    font-size: 30px;
+    color: #aaa;
+    font-weight: normal;
+}
+.UserProfile_header h5{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Roboto",-apple-system,apple color emoji,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    color: #fff;
+}
+.UserProfile_body img{
+    width: 100%;
+    height: auto;
+}
+.UserProfile_info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    height: 70px;
+    border-radius: 10px;
+    transition: all 0.3 ease-in-out;
+    cursor: pointer;
+}
+.UserProfile_info:hover{
+    background-color: #3f3d3d46;
+}
+.UserProfile_info_data{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding: 10px;
+    font-family: "Roboto",-apple-system,apple color emoji,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.UserProfile_info_data p{
+    font-size: 27px;
+    color: #aaa;
+    margin-right: 25px;
+   
+}
+.UserProfile_info_data .UserProfile_info_data_bio h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.UserProfile_info_data .UserProfile_info_data_bio h6{
+    font-size: 15px;
+    color: #aaa;
+    font-weight: normal;
+}

@@ -1,0 +1,92 @@
+.Sidebar{
+    background-color: #212121;
+    width: 30%;
+    height: 100vh;
+    padding: 20px;
+    
+}
+.Sidebar_header{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
+    position: relative;
+}
+.hamburger:hover{
+    background-color: #aaaaaa; 
+    transition: backgroung-color 1s;  
+    opacity: 0.5; 
+}
+.hamburger:hover p{
+    color: red;
+    opacity: 1;
+    color: #fff;
+    z-index: 10;
+}
+.hamburger p{
+    padding-right: 10px;
+    color: #aaaaaa;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 10px;
+    position: absolute;
+    
+}
+.Sidebar_input p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    color: #aaaaaa;
+    font-size: 10px;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.Sidebar_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 400px;
+    background-color: #181818;
+    border-radius: 50px;
+    margin: 5px;
+}
+.Sidebar_input input{
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 9px;
+    font-size: 20px;
+    color: #aaaaaa;
+    background-color: #181818;
+}
+.Sidebar_list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.Sidebar_list:focus{
+    background-color: #8774E1;
+}
+.Sidebar_list::-webkit-scrollbar{
+    width: 5px;
+}
+.Sidebar_list::-webkit-scrollbar-track{
+    background-color: #2f2f2f;
+}
+.Sidebar_list::-webkit-scrollbar-thumb{
+    background-color: #aaa;
+}

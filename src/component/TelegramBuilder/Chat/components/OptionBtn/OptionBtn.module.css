@@ -1,0 +1,33 @@
+.option{
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    height: 320px;
+    width: 250px;
+    position: absolute;
+    top: 5.5rem;
+    bottom: 0px;
+    right: 15px;
+    border-radius: 15px;
+}
+.option_list{
+    display: flex;
+    padding: 15px;
+}
+.option_list:last-child h5,
+.option_list:last-child p
+{
+    color: #ff595a;
+}
+.option_list h5{
+    color: #fff;
+    font-size: 18px;
+    font-family: tahoma;
+    font-weight: normal;
+    
+}
+.option_list p{
+    color: #aaa;
+    font-size: 25px;
+    margin-right: 30px;
+}
